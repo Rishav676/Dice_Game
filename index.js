@@ -30,6 +30,9 @@ else{
 
 }
 
+document.getElementsByClassName("p")[0].innerHTML=a;
+document.getElementsByClassName("p")[1].innerHTML=b;
+
 // //If player 1 wins
 // if (randomNumber1 > randomNumber2) {
 //     document.querySelector("h1").innerHTML = "🚩 Play 1 Wins!";
